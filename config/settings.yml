@@ -20,3 +20,5 @@ helpers:
   size_option: 80
 controllers:
   per_page: 10
+mailers:
+  email_default: "noreply@example.com"

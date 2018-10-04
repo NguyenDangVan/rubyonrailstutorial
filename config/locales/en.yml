@@ -56,7 +56,7 @@ en:
       confirm: "Confirmation"
       pls_login: "Please log in."
     create:
-      welcome: "Welcome to the Sample App!"
+      pls_check_email: "Please check your email to activate your account."
       fail: "Your accout not found! Try again"
     edit:
       edit_user: "Edit user"
@@ -69,6 +69,7 @@ en:
       profile_updated: "Profile updated"
     index:
       all_users: "All users"
+      pls_login: "Please log in."
     show:
       not_found_user: "User not found"
     delete:
@@ -90,3 +91,18 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      message: "Account not activated. Check your email for the activation link."
+  user_mailer:
+    account_activation:
+      acc_activation: "Account ativation"
+      user_acc_active: "User Acc Active"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      samapp: "Sample App"
+      hi: "Hi"
+      active: "Active"
+    password_reset:
+      user_pass_reset: "User#password_reset"
+  account_activations:
+    edit:
+      invalid_active_link: "Invalid activation link"
+      acc_actived: "Account activated!"
