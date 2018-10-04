@@ -13,6 +13,7 @@ models:
   maxsize_name: 50
   maxsize_email: 255
   minsize_pass: 6
+  expired: 2
 users:
   gravatar: "http://gravatar.com/emails"
   size_gra: 50
@@ -21,4 +22,4 @@ helpers:
 controllers:
   per_page: 10
 mailers:
-  email_default: "noreply@example.com"
+  email_default: "dinvvan@gmail.com"
