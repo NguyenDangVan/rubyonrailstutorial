@@ -13,6 +13,8 @@ gem "config"
 gem "ffaker"
 gem "jquery-rails"
 gem "kaminari"
+gem "carrierwave"
+gem "mini_magick"
 gem "rails-controller-testing"
 gem "coffee-rails", "~> 4.2"
 gem "turbolinks", "~> 5"
@@ -40,6 +42,7 @@ end
 
 group :production do
   gem "pg"
+  gem "fog"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

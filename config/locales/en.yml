@@ -72,6 +72,7 @@ en:
       pls_login: "Please log in."
     show:
       not_found_user: "User not found"
+      microposts: "Microposts"
     delete:
       delete: "delete"
     destroy:
@@ -97,6 +98,12 @@ en:
     error_messages:
       form_contain: "The form contains"
       err: "errors"
+    micropost_form:
+      post: "Post"
+      content: "Compose new micropost..."
+    user_info:
+      view_pro: "view my profile"
+      micropost: "micropost"
   sessions:
     new:
       login: "Log in"
@@ -126,3 +133,19 @@ en:
     edit:
       invalid_active_link: "Invalid activation link"
       acc_actived: "Account activated!"
+  models:
+    micropost:
+      should_be_less: "should be less than 1MB"
+  views:
+    microposts:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      confirm: "You sure?"
+      micropost: "micropost"
+    static_pages:
+      micropost_feed: "Micropost Feed"
+  microposts:
+    micro_deleted: "Micropost deleted"
+    micro_created: "Micropost created!"
+    micro_delete_failed: "Delete failed"
